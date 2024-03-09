@@ -7,7 +7,7 @@ export default function App16() {
   return (
     <div>
       <button onClick={() => setflag((prev) => 1)}>Feeds</button>
-      <button onClick={() => setflag((prev) => 2)}>Post</button>
+      <button onClick={() => setflag((prev) => 2)}>Post</button>a
       <Container flag={flag} />
     </div>
   );
