@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/loginpage/static/css/main.e6c13ad2.css",
+    "main.js": "/loginpage/static/js/main.a632bd8a.js",
+    "index.html": "/loginpage/index.html",
+    "main.e6c13ad2.css.map": "/loginpage/static/css/main.e6c13ad2.css.map",
+    "main.a632bd8a.js.map": "/loginpage/static/js/main.a632bd8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a632bd8a.js"
+  ]
+}
