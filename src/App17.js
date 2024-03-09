@@ -1,12 +1,9 @@
-import { Component } from "react"
+import React, { Component } from 'react'
 
-
-export default  class App17 extends  Comment{
-    render(){
-      return (
-        <div>17</div>
-      )
-    }
+export default class App17 extends Component {
+  render() {
+    return (
+      <div>App17</div>
+    )
   }
-  
-  
+}

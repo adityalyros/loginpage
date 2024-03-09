@@ -1,28 +1,21 @@
-import React,{useState} from "react";
-
-const App = ()=>{
-  const [data,setData] =useState({
-    username:'',
-    password:''
-  })
-  const {username,password}=data;
-  const changeHandler =e =>{
-    setData({...data,[e.target.name]:[e.target.value]})
+import "./App.css";
+import Calc from "./Calc";
+import Add from "./Add";
+import Students from "./Students";
+import Sqr from "./Sqr";
+import User from "./User";
+function App() {
+  const sqrfunction = (n) => {
+    return n*n
   }
-  const submitHandler = e =>{
-    e.praventDefault()
-    console.log(data)
-  }
-  return(
+  return (
     <div>
-      <center>
-        <form onSubmit={submitHandler}>
-          <input  type="text" name="Username" value={username} placeholder="enter user name" onChange={changeHandler}/><br/>
-          <input type="password" name="Password" value={password} placeholder="enter valid password" onChange={changeHandler}/><br/>
-          <input type="submit" name="submit"/>
-        </form>
-      </center>
+      <User name="John"/>
+     <Calc a={3} b={5}/>
+     <Add arr={[5,6,8]} />
+     <Students score={{'John':40,'Cathy':50}}/>
+     <Sqr a={5} fn={sqrfunction}/>
     </div>
-  )
+  );
 }
 export default App;
