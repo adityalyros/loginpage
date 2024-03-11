@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App21 from'./App21';
-import reporWebVitals from './reportWebVitals';
-import "./App.js"
+import App13a from "./App13a";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App21/>
-  </React.StrictMode>
+  <>
+    <App13a />
+  </>
 );
-reporWebVitals();
